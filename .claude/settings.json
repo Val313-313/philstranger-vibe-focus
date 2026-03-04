@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/Users/valentino/vibe-focus/.claude/hooks/vibe-focus-guard.mjs\""
+          }
+        ]
+      }
+    ]
+  }
+}
